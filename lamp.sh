@@ -22,3 +22,6 @@ if [ `whoami` == "root" ]
 else 
     echo "Necesitas ser root"
 fi
+
+#politicas de privacidad
+#UNINSTALL COMPONENT "file://component_validate_password";
