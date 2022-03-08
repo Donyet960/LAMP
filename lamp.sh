@@ -11,7 +11,6 @@ if [ `whoami` == "root" ]
         sudo mysql_secure_installation
         sudo apt install php libapache2-mod-php php-mysql
         sudo systemctl restart apache2
-        sudo systemctl status apache2
         sudo touch /var/www/html/info.php
         echo "<?php phpinfo();" >> /var/www/html/info.php
         echo "Apache funcionando -> http://localhost"
