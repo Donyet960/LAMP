@@ -25,3 +25,8 @@ fi
 
 #politicas de privacidad
 #UNINSTALL COMPONENT "file://component_validate_password";
+
+#Si no funciona root
+#CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
+#GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'localhost';
+#FLUSH PRIVILEGES;
